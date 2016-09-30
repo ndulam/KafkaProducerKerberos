@@ -10,7 +10,7 @@ import scala.collection.mutable.ArrayBuffer
 
 /**
  * Kafka handler to write data to handler
- * @author ashrith 
+ * @author naresh 
  */
 class KafkaHandler(val brokerList: String, val topicName: String) extends Handler with LazyLogging {
   private val props = new Properties()
