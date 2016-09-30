@@ -4,7 +4,7 @@ import scala.collection.mutable.ArrayBuffer
 
 /**
  * Handler for all external write systems
- * @author ashrith
+ * @author naresh
  */
 trait Handler {
   /**
